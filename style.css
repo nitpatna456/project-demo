@@ -66,7 +66,7 @@ h1{
    font-size: 20px;
    font-weight: bold;
 }
-button{
+#btn{
     height: 50px;
     width: 200px;
     border-radius: 5px;
@@ -152,30 +152,97 @@ button{
     text-align: center;
     padding-top: 50px;
 }
-.about2{
-    text-align: center;
-    font-size: 30px;
+.img2 img{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 30px;
 }
-.para{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 400;
-    color: #0a1f35;
+.Atxt{
+    width: 700px;
+    height: 500px;
+    margin: 30px;
 }
-.Mdept{
-    height: 100px;
-    width: 100%;
-    background-color: #ff8c00;
+.mid{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-table{
-    width: 50%;
-    border-collapse: collapse;
-    text-align: center;
     background-color: antiquewhite;
 }
-th,td{
-    border: 3px solid black;
+.Ahead{
+    font-size: 30px;
+    font-weight: bold;
+    color: #062e53;
+}
+.para2{
+    margin-top: 10px;
+    font-size: 25px;
+    line-height: 40px;
+}
+.para3{
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 40px;
+}
+.highl{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #f4f4f4;
+    text-align: center;
+}
+.highlight{
+    width: 100%;
+    height: 200px;
+    background-color: #001f3f;
+}
+.block{
+    display: flex;
+    justify-content: space-evenly;
+}
+.block img{
+    height: 200px;
+    width: 300px;
+    border-radius: 8px;
+}
+.touch,.msg{
+    height: 400px;
+    width: 50%;
+    margin-left: 70px;
+}
+.same{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a2a57;
+}
+.address,.phone,.email{
+    height: 100px;
+    background-color: #fff;
+    margin-top: 10px;
+}
+.address p, .phone p, .email p{
+    line-height: 30px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+input{
+    width: 600px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+textarea{
+    width: 600px;
+    height: 80px;
+    border: none;
+    margin: 5px;
+}
+#btn2{
+    width: 600px;
+    height: 50px;
+    margin: 5px;
+    background-color: #ff8c00;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
 }
